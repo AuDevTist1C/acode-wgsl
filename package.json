@@ -1,0 +1,16 @@
+{
+	"private": true,
+  "type": "module",
+  "devDependencies": {
+    "jszip": "^3.10.1",
+    "tsdown": "^0.22.3"
+  },
+  "scripts": {
+    "dev": "tsdown -w",
+    "build": "tsdown"
+  },
+  "browserslist": "cover 100%,not android < 5",
+  "dependencies": {
+    "@iizukak/codemirror-lang-wgsl": "^0.3.0"
+  }
+}
